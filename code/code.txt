@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+text-align:center;
+background-color:grey;
+
+}
+body{
+background-color:lightblue;
+}
+</style>
+</head>
+<body>
+
+
+
+<h2>Registration Forms</h2>
+
+
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+<label for="fname">Mobile no.:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  
+  <p>Choose your Gender:</p>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="Male">
+  <label for="html">Male</label><br>
+  <input type="radio" id="css" name="fav_language" value="Female">
+  <label for="css">Female</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="Others">
+  <label for="javascript">Others</label>
+</form>
+
+<p>Choose your hobby:</p>
+<form>
+  <input type="checkbox" id="hobbies " name="hobby1" value="listening song">
+  <label for="vehicle1"> I love songs</label><br>
+  <input type="checkbox" id="hobbies2" name="hobies3" value="reading books">
+  <label for="vehicle2"> I love a book</label><br>
+  <input type="checkbox" id="hobbies3" name="hobbies3" value="travelling">
+  <label for="hobbies3"> I love bike riding</label><br>
+  
+  <input type="submit" values="submit">
+</form>
+</body>
+</html>

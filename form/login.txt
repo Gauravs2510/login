@@ -1,0 +1,31 @@
+
+<html>
+<head>
+<style>
+h2{
+text-align:center;
+background-color:grey;
+
+}
+body{
+background-color:lightblue;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<h2>LOGIN PAGE</h2>
+<br>
+<form>
+  <label for="fname">USERNAME:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">PASSWORD:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+<br>
+<br>
+  <input type="submit" value="submit">
+<p><b><a href="file:///file:///C:/Users/Administrator/Desktop/code/code.HTML" target="_blank">This is a link</a></b></p>
+  
+</form>
+</body>
+</html>
